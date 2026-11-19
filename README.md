@@ -257,4 +257,4 @@ are not experimental results.
   Integrated Hessians (Janizek et al., 2021), Causal Shapley values
   (Heskes et al., 2020), the PC algorithm via causal-learn. No third-party code
   or data is included.
-* License: not yet chosen (pending author decision).
+* License: MIT — see [`LICENSE`](LICENSE).

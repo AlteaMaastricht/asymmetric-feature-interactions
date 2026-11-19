@@ -37,3 +37,5 @@ reported runtime of the PC-masked method and the error bars.
 | `outputs*/`, `outdir = ./`, root PNGs | Generated, single-seed, mostly unattributable. Only four canonical figures are kept, labelled. |
 | `.venv/`, `__pycache__/`, `.DS_Store` | Environment and build artefacts. |
 | Defense slides (pptx/pdf), third-party papers and book excerpt | Personal names on slides; copyrighted third-party material. |
+
+- `LICENSE` added (19 Nov 2026, author decision): MIT, copyright 2026 Arthur J. Maarschalkerweerd; README licence line updated.
