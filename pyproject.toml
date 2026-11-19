@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asym-interactions"
+version = "0.1.0"
+description = "Research code: directional feature-interaction attribution (IG second differences, PC DAG mask, DAG-ordered Shapley) on a synthetic SCM"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "matplotlib", "networkx"]
+
+[project.optional-dependencies]
+full = ["torch", "causal-learn", "seaborn"]
+
+[project.scripts]
+asym-run-compare = "asym_interactions.experiments.run_compare:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
